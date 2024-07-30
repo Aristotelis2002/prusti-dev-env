@@ -50,6 +50,7 @@ in
     packages =
       [
         pkgs.jdk
+        pkgs.rustup
         self'.legacyPackages.rustToolchain
         patch-prusti
       ]
